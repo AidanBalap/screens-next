@@ -1,7 +1,7 @@
 <template>
   <section class="stack block-image image-thick">
     <figure v-animate:fade-down class="attribution cover faded shadow-br">
-      <img src="https://source.unsplash.com/HaHd7dG2YnA/900x1000">
+      <img src="/images/jpeg/HaHd7dG2YnA_900_1000.jpeg">
       <figcaption>© photo by Hannah Tims on Unsplash</figcaption>
     </figure>
     <section v-animate:fade-up>

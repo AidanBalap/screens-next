@@ -2,8 +2,6 @@ import { createI18n } from 'vue-i18n';
 import yaml from 'js-yaml';
 import { locales } from '/@/config.yaml';
 
-const { VITE_LOCALES_URL } = import.meta.env;
-
 const LOADED = [];
 
 const i18n = createI18n({
@@ -15,7 +13,7 @@ export const setLocale = async locale => {
   try {
     if (!locales.supported.includes(locale)) throw new Error(`${locale} is not supported`);
     if (!LOADED.includes(locale)) {
-      const url = `${VITE_LOCALES_URL}/raw/${locale}.yaml`;
+      const url = `/@/locales/${locale}.yaml`;
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Error loading ${locale} from ${VITE_LOCALES_URL}`);
       const dictionary = yaml.load(await response.text());

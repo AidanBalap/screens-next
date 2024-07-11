@@ -1,0 +1,353 @@
+global:
+  and: et
+  more_info_qr : Pour plus d'informations, scannez le code QR suivant
+
+months:
+  JAN: JAN
+  FEB: FÉV
+  MAR: MAR
+  APR: AVR
+  MAY: MAI
+  JUN: JUN
+  JUL: JUL
+  AUG: AOÛ
+  SEP: SEP
+  OCT: OCT
+  NOV: NOV
+  DEC: DÉC
+
+
+# Not found page
+404:
+  not_found: Page non trouvée
+  got_lost: Vous êtes perdu?
+  not_here: Ce que vous cherchez n'est pas ici
+  go_back: Retourner
+  go_menu: Aller au menu
+
+
+# Main navigation
+navigation:
+  menu: Menu principal
+  snow_science: Nivologie
+  safety: Sécurité
+  commitment: Engagement
+  about: Sur nous
+  play: Jeux 
+  discover: Découvrir
+  explore: Explorer
+  guides: Guides
+
+
+# About page
+about:
+  vision: Vision
+  floorplan: Zone d'exposition
+  our_vision: Nous sommes en train de créer un Mountain Living Lab. Un espace où vous pourrez découvrir la montagne, mais aussi où vous pourrez développer de nouveaux projets et les appliquer dans un environnement réel. Notre objectif est d'impliquer tout le monde - des entreprises technologiques aux guides, des universitaires aux artistes - pour concevoir, construire et tester des idées extraordinaires.
+  zones:
+    el_cim: Espace de travail El Cim
+    tourism_office: Office de tourisme
+    videowall: Mur interactif
+    touchscreens: Écrans tactiles
+    vr: Réalité virtuelle
+    media: Documentaires
+    model3d: Maquette 3D
+    conference_room: Salle de conférences
+    comu_offices: Bureaux de la Mairie
+
+
+# Safety page
+safety:
+  pages:
+    general: Général
+    rescue: Sauvetage
+    equipment: Équipement
+    wildlife: Espèces dangereuses
+    hypothermia: Hypothermie
+    thunderstorm: Tempêtes
+
+  # Safety: General
+  general:
+    intro: La montagne présente un certain nombre de risques qu'il faut affronter avec prudence pour profiter de l'expérience en toute sécurité et confortablement. Ces risques peuvent être dus à des aléas autres que ceux du randonneur, mais les principales causes d'accidents en montagne sont dues au facteur humain, à la méconnaissance du environnement, à l'inexpérience ou à la surestimation de ses propres capacités.
+    guide: La plupart des accidents et des sauvetages en montagne ont lieu pendant les mois d'été. Si vous n'avez pas la bonne expérience, il est préférable de commencer avec un guide professionnel.
+    basic_principles: Principes de base de la sécurité en montagne
+    principles:
+      plan: Planifier
+      plan_desc: Vérifiez les informations mises à jour, les guides et les cartes. Vérifiez les conditions météorologiques et l'état de la neige, ainsi que son évolution possible.
+      equip: Équipez-vous
+      equip_desc: Apportez le matériel nécessaire à l'activité et des provisions suffisantes pour faire face à d'éventuels imprévus.
+      notify: Notifier
+      notify_desc: Communiquez à une personne de confiance les détails de l'itinéraire et les dates de l'activité prévue.
+      adapt: Adaptez-vous
+      adapt_desc: Adaptez l'activité à vos limites physiques et techniques, aux conditions du terrain et aux prévisions météorologiques. Ayez toujours un plan B.
+
+  # Safety: Rescue
+  rescue:
+    emergency_phone: Numéro d'urgence
+    european_phone: Numéro d'appel d'urgence européen unique pour tous les pays de l'Union Européenne et d'autres comme Andorre, la Suisse ou la Norvège.
+    disclaimer: Face à des attitudes négligentes, le Gouvernement peut exiger des secourus la prise en charge du coût de l'engin de sauvetage.
+    phone_directives: En cas d'accident ou d'urgence, appelez le numéro d'urgence et répondez aux instructions d'urgence
+    phone_questions:
+      what: Quel?
+      what_desc: Une description détaillée de la situation
+      where: Où?
+      where_desc: Le lieu exact des faits
+      when: Quand?
+      when_desc: Le moment précis des événements
+      who: Qui?
+      who_desc: Les personnes concernées et leur état
+    distress_signals: Signal d'alarme
+    distress:
+      helicopter_message: Signals pour indiquer à un pilote d'hélicoptère si de l'aide est nécessaire ou si la situation est sous contrôle
+      helicopter_yes: J'ai besoin d'aide
+      helicopter_no: Je n'ai pas besoin d'aide
+      morse_sos: Signe international de demande d'aide. Il est symbolisé en code Morse par une séquence de trois impulsions courtes, trois impulsions longues et trois autres impulsions courtes.
+
+  # Safety: Equipment
+  equipment:
+    equip_yourself: Équipez-vous correctement
+    proper_equipment: Il est indispensable de préparer son sac à dos avec le matériel adapté aux conditions de l'activité et de l'environnement pour profiter confortablement d'une excursion en montagne et pouvoir affronter tout imprévu en toute sécurité.
+    essentials: Indispensable
+    recommended: Conseillé
+    disclaimer: L'équipement nécessaire dépendra toujours de l'activité à réaliser. La liste du matériel de base doit être étoffée en fonction des spécificités de la sortie (nuit en montagne, sortie hivernale, pratique d'une activité sportive spécifique, etc.).
+    items:
+      clothes: Vêtements appropriés
+      shoes: Chaussures appropriées
+      water: Eau potable
+      food: Nourriture énergétique
+      raincoat: Imperméable
+      first_aid_kit: Trousse de premiers secours
+      mobile_phone: Téléphone portable et batteries supplémentaires
+      map_compass: Carte et boussole
+      sun_protection: Protection solaire
+      thermal_blanket: Couverture thermique
+      gps: Appareil GPS
+      knife: Rasoir polyvalent
+      lighter: Briquet
+      flashlight: Lampe de poche ou frontale
+      sandals: Des sandales
+
+  # Safety: Dangerous species
+  wildlife:
+    amanita_muscaria:
+      name: Amanite tue-mouches
+      description: L'amanite tue-mouches est un champignon psychoactif avec un chapeau rougeâtre et des spores blanches. Le pied, blanc et bulbeux à la base, porte un anneau large et fragile, également blanc.
+      habitat: Originaire des régions tempérées et boréales de l'hémisphère nord, il pousse dans les forêts de conifères et de feuillus à la fin de l'été ou au début de l'automne.
+      danger: Il est hautement indigeste, vomissant et hallucinogène, bien que son ingestion provoque rarement une intoxication mortelle.
+
+    vipera_aspis:
+      name: Vipère aspic
+      description: La vipère est un serpent venimeux d'environ 60 cm de long. Il a une tête large et triangulaire, bien différenciée du corps. Les écailles sont grises ou dorées, avec des taches noires ou verdâtres en zigzag sur le dos.
+      habitat: Il vit dans les zones chaudes et bien exposées au soleil, avec une préférence pour zones pierreuses et les prairies.
+      danger: Sa morsure est très douloureuse, mais rarement mortelle. La gravité varie en fonction de la quantité de poison inoculée et le seul traitement efficace est l'administration de sérum anti-vipère.
+
+    ursus_arctos:
+      name: Ours brun
+      description: L'ours brun peut mesurer jusqu'à 3m et peser jusqu'à 700kg. Ses cheveux oscillent entre le châtain foncé et le doré clair, passant par différentes nuances de gris. Il n'a pas une vision bien développée, mais il a une excellente ouïe et un excellent odorat.
+      habitat: Il habite les forêts matures en Europe, l'Asie tempérée et l'Amérique du Nord. Certains individus se trouvent dans les Pyrénées grâce aux programmes de réintroduction de l'espèce.
+      danger: Il évite généralement le contact avec les humains. Il n'attaque que lors de rencontres soudaines, s'il se sent acculé ou considère que sa progéniture est en danger.
+
+    aconitum:
+      name: Aconit
+      description: L'aconit est une grande plante aux feuilles vertes palmées et couronnée par un bouquet très caractéristique de fleurs zygomorphes voyantes. La floraison commence en juillet.
+      habitat: Il pousse entre 1000m et 2500m d'altitude, près des cours d'eau et dans les zones forestières humides et ombragées. Il existe trois espèces dans les Pyrénées, l'aconit napel (Aconitum napellus), l'aconit anthore (Aconitum anthora) et l'aconit tue-loup (Aconitum vulparia).
+      danger: C'est une plante extrêmement toxique et peut être mortelle même en petites quantités.
+
+  # Safety: Thunderstorm
+  thunderstorm:
+    thunderstorm: Tempête électrique
+    description: Les orages sont le principal danger de blessures et de décès liés aux conditions météorologiques. Ils se forment soudainement lors de journées chaudes, principalement l'après-midi, et sont souvent accompagnés de vents violents, de fortes pluies ou de grêle.
+    know_distance: Pour connaître la distance approximative en kilomètres à laquelle se trouve un orage, comptez les secondes écoulées entre l'éclair et le tonnerre et divisez par trois.
+    avoid_lightning: Évitez les éclairs
+    in_case_of: En cas d'orage électrique
+    safety_position: Position de sécurité
+    prevention: Soyez prêt, vérifiez vos prévisions météorologiques locales et reportez votre départ en cas de risque d'orage. La priorité en cas d'orage est de trouver un abri sûr. En dernier recours, maintenir la position de sécurité et attendre qu'il se dissipe.
+    safety_tips:
+      metal_contact: Éviter le contact avec des éléments métalliques. Enlevez votre sac à dos, ceinture, clous, cannes, piolet, etc.
+      spread_group: Dispersez le groupe pour minimiser l'impact de la foudre.
+      find_shelter: Cherchez un abri. Les bâtiments ou les véhicules sont sûrs, les tentes ne le sont pas.
+      no_run: Ne courir.
+      not_safe_places: Éloignez-vous des sommets, des crêtes et de tout élément élevé autour de vous. Ne vous placez pas sous des arbres isolés ou dans des cavités naturelles.
+      protect_ears: Protégez vos oreilles du tonnerre.
+      crouch_down: Penchez-vous jusqu'à la position la plus basse possible. Ne vous allongez ou ne vous asseyez jamais sur le sol.
+      touch_heels: Contactez entre les talons. Cela augmente la probabilité que de l'électricité vienne d'un pied à l'autre au lieu de se propager au reste du corps.
+      feet_balls: Tenez-vous sur la pointe des pieds pour minimiser le contact avec le sol. Augmentez l'isolation avec votre sac à dos ou votre tapis.
+
+  # Safety: Hypothermia
+  hypothermia:
+    definition: L'hypothermie est l'état dans lequel la température corporelle descend en dessous de sa valeur normale, autour de 37°C. Sa gravité sera influencée par la température ambiante, le contact avec des vêtements souples ou des métaux, la présence de maladies cardiovasculaires, la consommation d'alcool et/ou la faim.
+    prevention_tips: Mesures de prévention
+    in_case_of: En cas d'hypothermie
+    tips:
+      drink: Mangez et hydratez-vous constamment. Apportez des boissons chaudes dans un thermos.
+      rest: Arrêtez-vous et reposez-vous pour éviter la fatigue.
+      warm: Protégez les mains, les pieds, le cou et le visage avec des gants, un chapeau, une cagoule et de bonnes chaussettes.
+      clothes: Portez des vêtements appropriés pour garder votre corps au sec et au chaud. Utilisez plusieurs couches, un extérieur imperméable et plusieurs intérieurs respirants.
+      avoid_cotton: Évitez les vêtements en coton car ils absorbent et retiennent l'humidité.
+      call_er: Appelez le service d'urgence 112.
+      isolate: Isolez-vous du sol et du vent.
+      dry: Remplacez les vêtements mouillés par des vêtements secs.
+      cover: Couvrez-vous avec des couvertures ou des vêtements chauds. Récupérer progressivement la température corporelle.
+      warm_drink: Donnez des boissons sucrées et tièdes, mais pas chaudes.
+      no_alcohol: Ne pas offrir d'alcool, de caféine ou de tabac.
+      no_heat: Ne pas appliquer de chaleur directement.
+    symptoms:
+      normal: Motricité et processus métaboliques normaux
+      chill: Frissons
+      sensory_loss: Perte de sensibilité
+      speech_impairment: Difficulté d'élocution
+      memory_loss: Perte de mémoire
+      motor_uncoordination: Incoordination motrice
+      arrhythmia: Arythmie
+      cardiorespiratory_arrest: Arrêt cardio-respiratoire
+      death: Décès
+
+
+# Discover page
+discover:
+  title: Découvrir
+  instructions: Naviguez à travers les différents concepts et apprenez-en davantage sur nos montagnes.
+
+
+# Commitment
+commitment:
+  free_camping:
+    title: Camping libre
+    description: Il est permis de camper librement avec une tente en dehors des parcs naturels et des propriétés privées, pour un maximum de 2 nuits consécutives et un groupe maximum de 3 tentes au même endroit.
+    keep_clean: La zone doit être laissée en parfait état avant de partir.
+    authorisation: Dans les autres cas, une autorisation expresse doit être demandée à la mairie correspondante.
+  
+  shelters:
+    title: Refuges
+    description: Les 22 refuges libres d'Andorre sont ouverts toute l'année et le nombre de nuitées n'est pas limité. La plupart des refuges disposent d'un espace de couchage et d'une pièce dédiée à la cuisine et à la salle à manger.
+    check_capacity: La capacité d'hébergement varie dans chaque refuge; il est conseillé de la vérifier au préalable.
+  
+  fire:
+    title: Feux de camp
+    description: Il y a un certain nombre de points à prendre en compte pour faire un feu de camp pour se réchauffer ou cuisiner.
+    no_natural_parks: Il est interdit de faire des feux de camp dans les parcs naturels.
+    extinguish_fire: Ne laissez jamais le feu sans surveillance et veillez à l'éteindre avant de partir.
+    surround_rocks: Entourez le feu de pierres.
+    far_trees: Maintenez le feu loin des arbres et des buissons.
+  
+  vehicles:
+    title: Véhicules motorisés
+    description: La circulation des véhicules motorisés ou à roues dans l'espace naturel est réglementée par chaque mairie. Il convient de consulter le règlement communal correspondant avant de prendre la route.
+
+  dogs:
+    title: Chiens
+    description: Les chiens doivent être tenus en laisse en permanence, même dans la nature, et avec leur muselière correctement placée s'il s'agit d'une espèce potentiellement dangereuse.
+    excrements: Ne pas laisser les chiens pénétrer dans les prairies et les champs agricoles. Il est obligatoire de toujours ramasser leurs excréments car ils peuvent provoquer de graves maladies aux troupeaux de vaches qui paissent dans les prés.
+  
+  drones:
+    title: Drones
+    description: Le vol avec un drone dans un environnement naturel à des fins récréatives est autorisé si les conditions suivantes sont respectées
+    max_weight: Les drones dont le poids est inférieur à 1 kg.
+    vlos: Garder un contact visuel permanent avec le drone.
+    max_height: Hauteur maximale de vol de 50 m et rayon maximal de 150 m.
+    no_people: Ne pas survoler des groupes de plus de 12 personnes.
+
+
+# Explore page
+explore:
+  trails: Itinéraires
+  no_trails: Aucun itinéraire à afficher
+  go_back: Retour
+
+  profiles:
+    CASUAL: Casual
+    TREKKER: Promeneur
+    FAMILY: Famille
+    IGER: Instagramer
+    RUNNER: Coureur
+    SKIER: Skieur
+    CLIMBER: Alpiniste
+    BIKER: Cycliste
+    FISHER: Pêcheur
+
+  culture:
+    ROMANESQUE: Art Roman
+    DRY_STONE: Pierre sèche
+    ART: Art
+
+  wildlife:
+    RUPICABRA: Isard
+    MARMOTA: Marmotte
+    SALMO_TRUTTA: Truite fario
+    TRITURUS: Triton
+    TETRAO: Grand tétras
+    LAGOPUS: Perdrix blanche
+
+  clear_filters: Effacer filtres
+  filters:
+    all: Tous les parcours
+    trending: Remarquables
+    featured: Profils
+    advanced: Avancée
+
+    range:
+      more_than: Plus de {min} {unit}
+      from_to: De {min} {unit} à {max} {unit}
+
+    distance: Distance
+    duration: Durée
+    drop: Dénivelé
+    drop_positive: Dénivelé +
+    origin: Origine
+    culture: Héritage culturel
+    wildlife: Faune
+
+
+# Guides page
+guides:
+  mountain_guides: Guides de montagne
+  find_guide: Trouver un guide
+  loading: Chargement de la liste des guides...
+  looking_for: Je cherche un guide pour {discipline} qui parle {language}
+  association: Tous les guides qui collaborent avec la Casa de la Muntanya sont membres de l'Association des guides et accompagnants de montagne d'Andorre. Pour plus d'informations, visitez https://www.agamandorra.org.
+  disciplines:
+    null: n'importe quelle discipline
+    CLIMBING: escalade
+    MOUNTAIN_SKI: ski de montagne
+    SNOWSHOES: raquettes à neige
+    MOUNTAIN_BIKE: BTT
+    ALPINE_SKI: ski alpin
+    CULTURAL_HERITAGE: héritage culturel
+    VIA_FERRATA: via ferrata
+    CANYONING: canyoning
+    WINTER_TREKKING: randonnée d'hiver
+    SUMMER_TREKKING: randonnée d'été
+  share_knowledge: J'ai aussi des connaissances sur...
+  knowledge:
+    BOTANY: botanique
+    WILDLIFE: faune
+    BIRDS: des oiseaux
+    GEOLOGY: géologie
+    CULTURAL_HERITAGE: héritage culturel
+    SURVIVAL: survie
+    ASTRONOMY: astronomie
+    TRAIL_RUNNING: courses de montagne
+    ENVIRONMENTAL_EDUCATION: ateliers d'éducation à l'environnement
+    AVALANCHE_SAFETY: sécurité dans la neige et les avalanches
+
+
+# Play page
+play:
+  nav: Menu des jeux
+  start: Jouer!
+  again: Rejouer!
+  exit: Sortir
+  fingerpaint:
+    name: Doigts en peinture
+    description: Coloriez les dessins avec vos doigts
+    drawings: Dessins
+    no_drawings: Aucun dessin disponible
+  memorama:
+    name: Jeux de mémoire
+    description: Retournez les cartes et trouvez toutes les paires
+    loading: Chargement des cartes...
+    levels:
+      easy: Niveau facile
+      medium: Niveau moyen
+      hard: Niveau expert
+    score: Vous avez terminé le jeu sur {movements} mouvements et {time} secondes

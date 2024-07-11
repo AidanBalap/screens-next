@@ -43,17 +43,6 @@ modules:
     transitions:
       title: fade-down
       image: fade-up
-  - name: snow_science
-    path: snow_science
-    title: bottom left
-    image:
-      url: /images/jpeg/5867BKGyCu4_500_500.jpeg
-      attribution: © photo by freestocks on Unsplash
-      # url: https://source.unsplash.com/KPCXuBucEps/600x600
-      # attribution: photo by Will Turner on Unsplash
-    transitions:
-      title: fade-up
-      image: fade-down
   - name: explore
     path: /explore
     title: vertical left bottom
@@ -81,7 +70,20 @@ modules:
     transitions:
       title: fade-down
       image: fade-up
+  # - name: snow_science
+  #   path: /snow_science
+  #   title: bottom left
+  #   image:
+  #     url: /images/jpeg/5867BKGyCu4_500_500.jpeg
+  #     attribution: © photo by freestocks on Unsplash
+  #     # url: https://source.unsplash.com/KPCXuBucEps/600x600
+  #     # attribution: photo by Will Turner on Unsplash
+  #   transitions:
+  #     title: fade-up
+  #     image: fade-down
 
+
+  
 video:
   # https://developers.google.com/youtube/player_parameters?hl=es-419
   youtube:

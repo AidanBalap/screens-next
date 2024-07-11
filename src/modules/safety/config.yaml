@@ -26,11 +26,11 @@ equipment:
 species:
   - name: amanita_muscaria
     image:
-      url: https://source.unsplash.com/u8ffJD8KRmo/600x500
+      url: /images/jpeg/u8ffJD8KRmo_600_500.jpeg
       attribution: © photo by Henryk Piela from Unsplash
   - name: aconitum
     image:
-      url: https://source.unsplash.com/-7iCmNgTvKo/500x700
+      url: /images/jpeg/-7iCmNgTvKo_500_700.jpeg
       attribution: © photo by Manuel Capellari on Unsplash
       layout: thin
   - name: vipera_aspis

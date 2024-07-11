@@ -3,7 +3,7 @@ tipsPerPage: 2
 tips:
   free_camping:
     image:
-      url: https://source.unsplash.com/yBgC-qVCxMg/600x500
+      url: /images/jpeg/yBgC-qVCxMg_600_500.jpeg
       attribution: Photo by Rahul Bhosale on Unsplash
     text:
       - description
@@ -12,7 +12,7 @@ tips:
 
   shelters:
     image:
-      url: https://source.unsplash.com/j2X6eIActf4/600x500
+      url: /images/jpeg/j2X6eIActf4_600_500.jpeg
       attribution: Photo by Fabrizio Conti on Unsplash
     text:
       - description
@@ -21,7 +21,7 @@ tips:
 
   fire:
     image:
-      url: https://source.unsplash.com/_P-O42qV68I/600x500
+      url: /images/jpeg/_P-O42qV68I_600_500.jpeg
       attribution: Photo by Cailin Grant-Jansen on Unsplash
     text:
       - description
@@ -42,7 +42,7 @@ tips:
 
   dogs:
     image:
-      url: https://source.unsplash.com/OHV_IT371vI/600x500
+      url: /images/jpeg/OHV_IT371vI_600_500.jpeg
       attribution: Photo by Chewy on Unsplash
     text:
       - description
@@ -51,14 +51,14 @@ tips:
 
   vehicles:
     image:
-      url: https://source.unsplash.com/xb1rt2y-3l8/600x500
+      url: /images/jpeg/xb1rt2y-3l8_600_500.jpeg
       attribution: Photo by Egor Myznik on Unsplash
     text:
       - description
 
   drones:
     image:
-      url: https://source.unsplash.com/0VfnZbQd98c/600x500
+      url: /images/jpeg/0VfnZbQd98c_600_500.jpeg
       attribution: Photo by Clay Banks on Unsplash
     text:
       - description
