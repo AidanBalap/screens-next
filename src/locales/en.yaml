@@ -1,0 +1,339 @@
+global:
+  and: and
+  more_info_qr: For more information scan the following QR code
+
+
+# Not found page
+404:
+  not_found: Page not found
+  got_lost: Got lost?
+  not_here: Whatever you were looking for is not here
+  go_back: Go back
+  go_menu: Go to menu
+
+
+# Main navigation
+navigation:
+  menu: Navigation
+  snow_science: Snow science
+  safety: Safety
+  commitment: Commitment
+  about: We are
+  play: Playground
+  discover: Discover
+  explore: Explore
+  guides: Guides
+
+
+#About page
+about:
+  vision: Vision
+  floorplan: Exhibition area
+  our_vision: We are creating a Mountain Living Lab. A space to experience the mountain, but also to develop new projects and apply them in a real environment. Our aim is to involve everyone - from technology companies to guides, from academic centres to artists - to design, build and test extraordinary ideas.
+  zones:
+    el_cim: El Cim working space
+    tourism_office: Tourism office
+    videowall: Videowall
+    touchscreens: Touchscreens
+    vr: Virutal Reality
+    media: Documentaries
+    model3d: 3D Model
+    conference_room: Conference room
+    comu_offices: Comú offices
+
+
+# Safety page
+safety:
+  pages:
+    general: General
+    rescue: Rescue
+    equipment: Equipment
+    wildlife: Dangerous species
+    hypothermia: Hypothermia
+    thunderstorm: Thunderstorms
+
+  # Safety: General
+  general:
+    intro: The mountain presents a series of risks that have to be faced with caution to enjoy the experience with safety and comfort. These risks may be due to unforeseen and external factors to the hiker, but the main causes of accidents in the mountains are due to the human factor, ignorance of the environment, inexperience or overestimation of self abilities.
+    guide: Most accidents and rescues in the mountains take place during the summer months. If you do not have adequate experience, it is advisable to start with a professional guide.
+    basic_principles: Basic principles of safety in the mountains
+    principles:
+      plan: Plan
+      plan_desc: Consult updated information, guides and maps. Check the weather conditions and snow status, as well as its possible evolution.
+      equip: Equip yourself
+      equip_desc: Bring the necessary equipment for the activity and enough supplies to face possible unforeseen events.
+      notify: Warn
+      notify_desc: Inform someone you trust about the details of the route and the dates of the planned activity.
+      adapt: Adapt yourself
+      adapt_desc: Adapt the activity to your physical and technical limits, to the terrain conditions and to the meteorological forecast. Always have a B plan.
+
+  # Safety: Rescue
+  rescue:
+    emergency_phone: Emergency phone
+    european_phone: Single European emergency phone number for all the countries of the European Union and others like Andorra, Switzerland or Norway.
+    disclaimer: In the event of negligent behavior, the Government may claim the cost of the rescue device to the rescued person.
+    phone_directives: In case of accident or emergency, call the emergency phone and answer briefly but precisely the following questions
+    phone_questions:
+      what: What?
+      what_desc: A detailed description of the situation
+      where: Where?
+      where_desc: The exact location of the events
+      when: When?
+      when_desc: The precise moment of the events
+      who: Who?
+      who_desc: The people involved and their status
+    distress_signals: Distress signals
+    distress:
+      helicopter_message: Signals to indicate to a helicopter pilot if help is needed or if the situation is under control.
+      helicopter_yes: Yes, I need help.
+      helicopter_no: No help needed
+      morse_sos: International distress signal. It is symbolized in Morse code as a succession of three short pulses, three long pulses and other three short pulses.
+
+  # Safety: Equipment
+  equipment:
+    equip_yourself: Equip yourself properly
+    proper_equipment: It is essential to prepare the backpack with the material adapted to the conditions of the activity and the environment in order to enjoy a comfortable excursion to the mountain and to be able to safely face any unexpected event.
+    essentials: Essentials
+    recommended: Recommended
+    disclaimer: The necessary equipment will always depend on the activity to be carried out. The list of basic equipment must be extended according to the specific requirements of the trip (overnight stay in the mountain, winter trip, specific sports activity, etc.).
+    items:
+      clothes: Appropriate clothing
+      shoes: Appropriate shoes
+      water: Drinking water
+      food: Energetic food
+      raincoat: Raincoat
+      first_aid_kit: First Aid Kit
+      mobile_phone: Mobile phone and extra batteries
+      map_compass: Map and compass
+      sun_protection: Sun protection
+      thermal_blanket: Thermal blanket
+      gps: GPS device
+      knife: Multi-tool pocketknife
+      lighter: Lighter
+      flashlight: Flashlight
+      sandals: Sandals
+
+  # Safety: Dangerous species
+  wildlife:
+    amanita_muscaria:
+      name: Amanita muscaria
+      description: Amanita muscaria is a psychoactive mushroom with red cap and white spores. The stipe, white and bulbous at the base, has a wide and fragile ring, also white.
+      habitat: Native to the temperate and boreal regions of the Northern Hemisphere, it grows in coniferous and deciduous forests from late summer to early autumn.
+      danger: It is highly indigestible and hallucinogenic, although its ingestion rarely produces fatal intoxication.
+
+    vipera_aspis:
+      name: Vipera aspis
+      description: The vipera aspis is a venomous snake about 60 cm long. It has a broad, triangular head, well differentiated from the body. The scales are gray or golden, with black or greenish spots zigzagging on the back.
+      habitat: It lives in warm areas with good exposure to the Sun, with preference for stony environments and grasslands.
+      danger: His bite is very painful, but it is rarely lethal. The severity varies depending on the amount of poison inoculated and the only effective treatment is the administration of anti-viper serum.
+
+    ursus_arctos:
+      name: Brown bear
+      description: The brown bear can measure up to 3 m and weigh up to 700 kg. Its fur is between dark brown and light golden, going through different shades of gray. It does not have very developed vision, but it has an excellent hearing and smell.
+      habitat: It inhabits mature forests in Europe, temperate Asia and North America. Some individuals are found in the Pyrenees due to reintroduction programs.
+      danger: It generally avoids contact with humans, and only attacks in sudden encounters, if it feels cornered or considers his offspring to be in danger.
+
+    aconitum:
+      name: Aconitum
+      description: The aconitum is a tall plant, with palmate green leaves and crowned by a very characteristic bouquet of zygomorphic flowers. Flowering begins in July.
+      habitat: It grows between 1000 m and 2500 m altitude, near streams and in humid and shady areas of forests. There are three species in the Pyrenees, the Aconitum napellus, the Aconitum anthora and the Aconitum vulparia.
+      danger: It is an extremely toxic plant and can be lethal even in small amounts.
+
+  # Safety: Thunderstorm
+  thunderstorm:
+    thunderstorm: Thunderstorm
+    description: Thunderstorms are the main cause of injuries and deaths related to weather phenomena. They form suddenly on warm days, mostly in the afternoon, and are often accompanied by strong winds, heavy rain or hail.
+    know_distance: To know the approximate distance in kilometers at which a storm is, count the seconds elapsed between lightning and thunder and divide by three.
+    avoid_lightning: Avoid lightning
+    in_case_of: In case of thunderstorm
+    safety_position: Safety position
+    prevention: Be prepared, check your local weather forecast and postpone your departure if there is a risk of a storm. The priority in case of a storm is to find a safe haven. As a last resort, take the safety position and wait for it to dissipate.
+    safety_tips:
+      metal_contact: Avoid contact with metal elements. Get rid of your backpack, belt, nails, sticks, ice axes, etc.
+      spread_group: Spread the group to minimize the impact of lightning.
+      find_shelter: Look for shelter. Buildings or vehicles are safe, tents are not.
+      no_run: Do not run
+      not_safe_places: Stay away from peaks, ridges and any high elements around. Do not place yourself under isolated trees or inside natural cavities.
+      protect_ears: Protect your ears from the thunder.
+      crouch_down: Crouch down low. Never lie down or sit on the floor.
+      touch_heels: Heels contact. It increases the likelihood of electricity entering through one foot coming out through the other foot instead of flowing to the rest of the body.
+      feet_balls: Stand on tiptoe to minimize contact with the ground. Increase insulation with your backpack or mat.
+
+  # Safety: Hypothermia
+  hypothermia:
+    definition: Hypothermia is the condition in which the body temperature drops below its normal value, around 37 °C. Its severity will be influenced by room temperature, contact with wet clothing or metals, the presence of cardiovascular disease, alcohol intake and/or hunger.
+    prevention_tips: Prevention measures
+    in_case_of: In case of hypothermia
+    tips:
+      drink: Eat and hydrate constantly. Bring hot drinks in a thermos.
+      rest: Stop and rest to prevent fatigue.
+      warm: Protect hands, feet, neck and face with gloves, hat, balaclava and good socks.
+      clothes: Dress in appropriate clothing, which keeps the body dry and warm. Use multiple layers, one exterior waterproof and several interior breathable.
+      avoid_cotton: Avoid cotton clothes as it absorbs and retains moisture.
+      call_er: Call the 112 emergency service.
+      isolate: Insulate from the ground and wind.
+      dry: Replace wet clothes with dry ones.
+      cover: Cover with blankets or warm clothes. Gradually regain body temperature.
+      warm_drink: Give sweet warm drinks, but not hot ones.
+      no_alcohol: Do not offer alcohol, caffeine or tobacco.
+      no_heat: Do not directly apply heat.
+    symptoms:
+      normal: Normal motor skills and metabolic processes
+      chill: Shivers
+      sensory_loss: Loss of sensitivity
+      speech_impairment: Speech difficulty
+      memory_loss: Memory loss
+      motor_uncoordination: Motor incoordination
+      arrhythmia: Arrhythmia
+      cardiorespiratory_arrest: Cardiorespiratory arrest
+      death: Death
+
+
+# Discover page
+discover:
+  title: Discover
+  instructions: Navigate through the different concepts and learn more about our mountains.
+
+
+# Commitment page
+commitment:
+  free_camping:
+    title: Free camping
+    description: It is allowed to camp freely with a tent outside the Natural Parks and private properties, for a maximum of 2 consecutive nights and a maximum group of 3 tents in the same place.
+    keep_clean: The area must be left in perfect condition before leaving.
+    authorisation: In other cases, express authorisation must be requested from the corresponding town hall.
+  
+  shelters:
+    title: Shelters
+    description: The 22 free shelters in Andorra are open all year round and there is no maximum number of overnight stays. Most shelters have a sleeping area and a room dedicated to the kitchen and dining room.
+    check_capacity: The accommodation capacity varies in each shelter; it is advisable to check it beforehand.
+  
+  fire:
+    title: Campfires
+    description: There are a number of points to take into account when building a campfire to warm up or cook.
+    no_natural_parks: It is forbidden to make campfires in Natural Parks.
+    extinguish_fire: Never leave the fire unattended and make sure to extinguish it before leaving.
+    surround_rocks: Surround the fire with stones.
+    far_trees: Keep the fire away from trees and bushes.
+  
+  vehicles:
+    title: Motorised vehicles
+    description: The circulation of motorised or wheeled vehicles within the natural area is regulated by each town hall. The corresponding communal regulations must be consulted before setting off.
+
+  dogs:
+    title: Dogs
+    description: Dogs must be kept on a leash at all times, even in the wild, and with their muzzles correctly placed if it is a potentially dangerous species.
+    excrements: Do not allow dogs to enter meadows and agricultural fields. It is compulsory to always collect their excrements as they can cause serious illnesses to the herds of cows that graze in the meadows.
+  
+  drones:
+    title: Drones
+    description: Flying with a drone in a natural environment for recreational purposes is permitted provided that the following conditions are met
+    max_weight: Drones weighing less than 1 kg.
+    vlos: Keep permanent visual contact with the drone.
+    max_height: Maximum flying height of 50 m and maximum radius of 150 m
+    no_people: Do not fly over groups of more than 12 people.
+
+
+# Explore page
+explore:
+  trails: Trails
+  no_trails: There are no trails to show
+  go_back: Go back
+
+  profiles:
+    CASUAL: Casual
+    TREKKER: Trekker
+    FAMILY: Family
+    IGER: Instagrammer
+    RUNNER: Runner
+    SKIER: Skier
+    CLIMBER: Climber
+    BIKER: Biker
+    FISHER: Fisher
+
+  culture:
+    ROMANESQUE: Romanesque
+    DRY_STONE: Dry stone
+    ART: Art
+
+  wildlife:
+    RUPICABRA: Chamois
+    MARMOTA: Groundhog
+    SALMO_TRUTTA: Trout
+    TRITURUS: Newt
+    TETRAO: Capercaillie
+    LAGOPUS: Ptarmigan
+
+  clear_filters: Clear filters
+  filters:
+    all: All trails
+    trending: Trending now
+    featured: Profiled
+    advanced: Advanced
+
+    range:
+      more_than: More than {min} {unit}
+      from_to: From {min} {unit} until {max} {unit}
+
+    distance: Distance
+    duration: Duration
+    drop: Drop
+    drop_positive: Drop +
+    origin: Origin
+    culture: Cultural heritage
+    wildlife: Wildlife
+
+
+# Guides page
+guides:
+  mountain_guides: Mountain guides
+  find_guide: Find a guide
+  loading: Loading list of guides...
+  looking_for: I'm looking for a {discipline} guide who speaks {language}
+  association: All the guides who collaborate with Casa de la Muntanya are members of the Andorran Association of Mountain Guides. For more information visit https://www.agamandorra.org.
+  disciplines:
+    null: any discipline
+    CLIMBING: climbing
+    MOUNTAIN_SKI: mountain ski
+    SNOWSHOES: snowshoes
+    MOUNTAIN_BIKE: MTB
+    ALPINE_SKI: alpine ski
+    CULTURAL_HERITAGE: cultural heritage
+    VIA_FERRATA: via ferrata
+    CANYONING: canyoning
+    WINTER_TREKKING: winter trekking
+    SUMMER_TREKKING: summer trekking
+  share_knowledge: I am also proficient in...
+  knowledge:
+    BOTANY: botany
+    WILDLIFE: wildlife
+    BIRDS: birds
+    GEOLOGY: geology
+    CULTURAL_HERITAGE: cultural heritage
+    SURVIVAL: survival techniques
+    ASTRONOMY: astronomy
+    TRAIL_RUNNING: trail running
+    ENVIRONMENTAL_EDUCATION: environmental education
+    AVALANCHE_SAFETY: avalanche safety
+
+
+# Play page
+play:
+  nav: Games menu
+  start: Play! 
+  again: Play again!
+  exit: Exit
+  fingerpaint:
+    name: Fingerpaint
+    description: Colorize with your fingers
+    drawings: Drawings
+    no_drawings: There are not drawings available
+  memorama:
+    name: Memorama
+    description: Turn the cards over and find the pairs
+    loading: Loading cards...
+    levels:
+      easy: Beginner
+      medium: Advanced
+      hard: Expert
+    score: You have completed the game in {movements} movements and {time} seconds

@@ -1,0 +1,353 @@
+global:
+  and: i
+  more_info_qr: Per a més informació escaneja el següent codi QR
+
+months:
+  JAN: GEN
+  FEB: FEB
+  MAR: MAR
+  APR: ABR
+  MAY: MAI
+  JUN: JUN
+  JUL: JUL
+  AUG: AGO
+  SEP: SET
+  OCT: OCT
+  NOV: NOV
+  DEC: DES
+
+
+# Not found page
+404:
+  not_found: Pàgina no trobada
+  got_lost: T'has perdut?
+  not_here: El que sigui que buscaves no està aquí
+  go_back: Tornar enrere
+  go_menu: Anar al menú
+
+
+# Main navigation
+navigation:
+  menu: Menú Principal
+  snow_science: Nivologia
+  safety: Seguretat
+  commitment: Compromís
+  about: Qui som
+  play: Jocs 
+  discover: Descobreix
+  explore: Explora
+  guides: Guies
+
+
+# About page
+about:
+  vision: Visió
+  floorplan: Zona expositiva
+  our_vision: Estem creant un Mountain Living Lab. Un espai on experimentar la muntanya, però també on desenvolupar nous projectes i aplicar-los en un entorn real. El nostre objectiu és involucrar tothom -d’empreses tecnològiques a guies, de centres academics a artistes- per dissenyar, contstruir i provar idees extraordinàries.
+  zones:
+    el_cim: Espai de treball El Cim
+    tourism_office: Oficina de turisme
+    videowall: Mur interactiu
+    touchscreens: Pantalles tàctils
+    vr: Realitat virtual
+    media: Documentals
+    model3d: Maqueta 3D
+    conference_room: Sala de conferències
+    comu_offices: Oficines del Comú
+
+
+# Safety page
+safety:
+  pages:
+    general: General
+    rescue: Rescat
+    equipment: Equipament
+    wildlife: Espècies perilloses
+    hypothermia: Hipotèrmia
+    thunderstorm: Tempestes
+
+  # Safety: General
+  general:
+    intro: La muntanya presenta una sèrie de riscos que s'han d'afrontar amb prudència per gaudir de l'experiència amb seguretat i comoditat. Aquests riscos poden ser deguts a factors imprevistos i aliens a l'excursionista, però les principals causes dels accidents en muntanya són degudes al factor humà, el desconeixement del medi, la inexperiència o la sobreestimació de les capacitats pròpies.
+    guide: La majoria d'accidents i rescats en muntanya es registra durant els mesos d'estiu. En cas de no tenir l'experiència adequada, el més aconsellable és iniciar-se de la mà d'un guia professional.
+    basic_principles: Principis bàsics de seguretat en muntanya
+    principles:
+      plan: Planifica
+      plan_desc: Consulta informació, guies i mapes actualitzats. Revisa les condicions meteorològiques i l'estat de la neu, així com la seva possible evolució.
+      equip: Equipa't
+      equip_desc: Porta l'equip necessari per a l'activitat i avituallament suficient per afrontar possibles imprevistos.
+      notify: Avisa
+      notify_desc: Comunica a algú de confiança els detalls sobre la ruta i les dates de l'activitat prevista.
+      adapt: Adapta't
+      adapt_desc: Adapta l'activitat als teus límits físics i tècnics, a les condicions del terreny i a la previsió meteorològica. Tingues sempre un pla B.
+
+  # Safety: Rescue
+  rescue:
+    emergency_phone: Telèfon emergència
+    european_phone: Telèfon únic europeu d'emergència per tots els països de la Unió Europea i altres com Andorra, Suïssa o Noruega.
+    disclaimer: Davant d'actituds negligents el Govern pot reclamar al rescatat l'assumpció del cost del dispositiu de salvament.
+    phone_directives: En cas d'accident o emergència, truca al telèfon d'emergència i respon de manera breu però precisa les següents preguntes
+    phone_questions:
+      what: Què?
+      what_desc: Una descripció detallada de la situació
+      where: On?
+      where_desc: La localització exacta dels fets
+      when: Quan?
+      when_desc: El moment precís dels fets
+      who: Qui?
+      who_desc: Les persones involucrades i el seu estat
+    distress_signals: Senyals d'auxili
+    distress:
+      helicopter_message: Senyals per indicar a un pilot d'helicòpter si es necessita ajuda o si pel contrari la situació està controlada.
+      helicopter_yes: Necessito ajuda
+      helicopter_no: No necessito ajuda
+      morse_sos: Senyal internacional de petició d'auxili. Se simbolitza en codi morse com una successió de tres polsos curts, tres polsos llargs i tres polsos curts més.
+
+  # Safety: Equipment
+  equipment:
+    equip_yourself: Equipa't adequadament
+    proper_equipment: És imprescindible preparar la motxilla amb el material adaptat a les condicions de l'activitat i de l'entorn per gaudir amb comoditat d'una excursió a la muntanya i poder afrontar qualsevol imprevist de manera segura.
+    essentials: Imprescindible
+    recommended: Recomanat
+    disclaimer: L'equip necessari dependrà sempre de l'activitat a realitzar. La llista de material bàsic s'ha d'ampliar en funció dels requeriments específics de la sortida (pernoctació a la muntanya, sortida hivernal, realització d'una activitat esportiva concreta, etc.).
+    items:
+      clothes: Vestimenta adequada
+      shoes: Calçat adequat
+      water: Aigua potable
+      food: Aliment energètic
+      raincoat: Impermeable
+      first_aid_kit: Farmaciola
+      mobile_phone: Telèfon mòbil i bateries extra
+      map_compass: Mapa i brúixola
+      sun_protection: Protecció solar
+      thermal_blanket: Manta tèrmica
+      gps: Dispositiu GPS
+      knife: Navalla multiús
+      lighter: Encenedor
+      flashlight: Llanterna o frontal
+      sandals: Sandàlies
+
+  # Safety: Dangerous species
+  wildlife:
+    amanita_muscaria:
+      name: Reig bord
+      description: El reig bord és un bolet psicoactiu amb barret vermellós i esporada blanca. El peu, blanc i bulbós a la base, té un anell ample i fràgil, també blanc.
+      habitat: Nadiu de les regions temperades i boreals de l'hemisferi nord, creix en boscos de coníferes i de caducifolis cap a finals d'estiu o a l'entrant de la tardor.
+      danger: És altament indigest, vòmic i al·lucinogen, tot i que la seva ingesta rarament produeix intoxicacions mortals.
+
+    vipera_aspis:
+      name: Escurçó
+      description: L'escurçó és una serp verinosa d'uns 60 cm. Té el cap ample i triangular, ben diferenciat del cos. Les escames són grisoses o daurades, amb taques negres o verdoses en aparent zig-zag sobre el llom.
+      habitat: Viu en zones càlides i amb bona exposició al Sol, amb preferència per entorns pedregosos i herbassars.
+      danger: La seva mossegada és molt dolorosa, però rarament és letal. La gravetat varia en funció de la quantitat de verí inoculat i l'únic tractament eficaç és l'administració de sèrum anti viperí.
+
+    ursus_arctos:
+      name: Ós bru
+      description: L'ós bru pot mesurar fins a 3 m i pesar fins a 700 kg. Té el pèl entre marró fosc i daurat clar, passant per diferents tons grisosos. No té la visió molt desenvolupada, però sí una oïda i un olfacte excel·lents.
+      habitat: Habita en boscos madurs d'Europa, de l'Àsia temperada i de Nord-amèrica. Al Pirineu s'hi troben alguns individus gràcies als programes de reintroducció de l'espècie.
+      danger: Generalment evita el contacte amb humans. Només ataca en trobades sobtades, si se sent acorralat o considera que les seves cries estan en perill.
+
+    aconitum:
+      name: Tora
+      description: La tora és una planta alta, amb fulles verdes palmades i coronada per un ram molt característic de vistoses flors zigomorfes. La floració comença al juliol.
+      habitat: Creix entre els 1000 m i 2500 m d'altitud, prop de rierols i en zones humides i ombrívoles de bosc. Al Pirineu hi són presents tres espècies, la tora blava (Aconitum napellus), la tora groga (Aconitum anthora) i la tora blanca (Aconitum vulparia).
+      danger: És una planta extremadament tòxica i pot ser letal inclús en petites quantitats.
+
+  # Safety: Thunderstorm
+  thunderstorm:
+    thunderstorm: Tempesta elèctrica
+    description: Les tempestes elèctriques són el principal perill de lesions i morts relacionades amb fenòmens meteorològics. Es formen sobtadament en dies càlids, majoritàriament a la tarda, i van sovint acompanyades de forts vents, pluja intensa o calamarsa.
+    know_distance: Per saber la distància aproximada en kilòmetres a la que es troba una tempesta, conta els segons transcorreguts entre el llamp i el tro i divideix per tres.
+    avoid_lightning: Evita els llamps
+    in_case_of: En cas de tempesta elèctrica
+    safety_position: Posició de seguretat
+    prevention: Estigues preparat, consulta la previsió meteorològica local i ajorna la sortida si hi ha risc de tempesta. La prioritat en cas de tempesta és trobar un refugi segur. Com a última alternativa, adopta la posició de seguretat i espera que aquesta es dissipi.
+    safety_tips:
+      metal_contact: Evita el contacte amb elements metàl·lics. Desprèn-te de motxilla, cinturó, claus, bastons, piolets, etc.
+      spread_group: Disperseu el grup per minimitzar l'impacte d'un llamp.
+      find_shelter: Busca refugi. Edificis o vehicles són segurs, les tendes de campanya no.
+      no_run: No corris.
+      not_safe_places: Allunya't de pics, carenes i qualsevol element alt del voltant. No et situïs sota arbres aïllats ni dins de cavitats naturals.
+      protect_ears: Protegeix-te les orelles de l'esclat dels trons.
+      crouch_down: Ajup-te fins a la posició més baixa possible. No et tombis mai ni t'asseguis a terra.
+      touch_heels: Contacte entre talons. Augmenta la probabilitat que l'electricitat entrant per un peu surti per l'altre peu en comptes de fluir cap a la resta del cos.
+      feet_balls: Aguanta't sobre la punta dels peus per minimitzar el contacte amb el terra. Augmenta l'aïllament amb la motxilla o l'estoreta.
+
+  # Safety: Hypothermia
+  hypothermia:
+    definition: La hipotèrmia és la condició en la qual la temperatura corporal disminueix per sota del seu valor normal, al voltant dels 37 °C. La seva gravetat vindrà influenciada per la temperatura ambient, el contacte amb roba molla o metalls, la presència de malalties cardiovasculars, la ingesta d'alcohol i/o gana.
+    prevention_tips: Mesures de prevenció
+    in_case_of: En cas d'hipotèrmia
+    tips:
+      drink: Menjar i hidratar-se constantment. Portar begudes calentes en un termo.
+      rest: Aturar-se i reposar per prevenir la fatiga.
+      warm: Protegir mans, peus, coll i cara amb guants, barret, passamuntanyes i uns bons mitjons.
+      clothes: Vestir-se amb roba adequada, que mantingui el cos eixut i calent. Utilitzar múltiples capes, una d'exterior impermeable i diverses interiors transpirables.
+      avoid_cotton: Evitar la roba de cotó, ja que absorbeix i manté la humitat.
+      call_er: Avisar al servei d'emergència 112.
+      isolate: Aïllar del terra i del vent.
+      dry: Substituir roba mullada per peces eixutes.
+      cover: Cobrir amb mantes o roba càlida. Recuperar la temperatura corporal gradualment.
+      warm_drink: Donar begudes dolces i tèbies, però no calentes.
+      no_alcohol: No oferir alcohol, cafeïna ni tabac.
+      no_heat: No aplicar calor directament.
+    symptoms:
+      normal: Habilitats motores i processos metabòlics normals
+      chill: Calfreds
+      sensory_loss: Pèrdua de sensibilitat
+      speech_impairment: Dificultat de la parla
+      memory_loss: Pèrdua de memòria
+      motor_uncoordination: Descoordinació motora
+      arrhythmia: Arrítmia
+      cardiorespiratory_arrest: Aturada cardiorespiratòria
+      death: Mort
+
+
+# Discover page
+discover:
+  title: Descobreix
+  instructions: Navega pels diferents conceptes i aprèn més sobre les nostres muntanyes.
+
+
+# Commitment page
+commitment:
+  free_camping:
+    title: Acampada lliure
+    description: Està permès acampar lliurement amb tenda fora dels Parcs Naturals i propietats privades, durant un màxim de 2 nits consecutives i un grup màxim de 3 tendes al mateix lloc.
+    keep_clean: Cal deixar l'espai en perfectes condicions abans de marxar.
+    authorisation: En altres casos, cal sol·licitar autorització expressa al Comú corresponent.
+  
+  shelters:
+    title: Refugis
+    description: Els 22 refugis lliures d'Andorra estan oberts tot l'any i s'hi pot accedir sense límit màxim de pernoctacions. La majoria de refugis disposen d'un espai de lliteres i d'una estància dedicada a la cuina i menjador.
+    check_capacity: La capacitat d'acollida varia en cada refugi; s'aconsella consultar-ho prèviament.
+  
+  fire:
+    title: Foc
+    description: Hi ha una sèrie de punts a tenir en compte a l'hora de fer un foc de campament per escalfar-se o cuinar.
+    no_natural_parks: Està prohibit fer focs als Parcs Naturals
+    extinguish_fire: No deixar mai el foc desatés i assegurar-se d'apagar-lo abans de marxar.
+    surround_rocks: Encerclar el foc amb pedres
+    far_trees: Allunyar el foc de matolls i arbres
+  
+  vehicles:
+    title: Vehicles motoritzats
+    description: La circulació amb vehicle motoritzat o rodat dins l'espai natural esta regulada per cada Comú. S'ha de consultar la normativa comunal corresponent abans de la sortida.
+  
+  dogs:
+    title: Gossos
+    description: Cal portar els gossos lligats en tot moment, fins i tot en medi natural, i amb el morrió correctament col·locat si es tracta d'una espècie catalogada com potencialment perillosa.
+    excrements: No deixar que entrin en prats i camps agrícoles. Es obligatori recollir sempre els seus excrements ja que poden ocasionar greus malalties als ramats de vaques que pasturen pels prats.
+  
+  drones:
+    title: Drons
+    description: El vol amb drone en medi natural amb finalitat lúdica està permès sempre que es compleixin les següents condicions
+    max_weight: Drons amb un pes inferior a 1 kg
+    vlos: Mantenir contacte visual permanent amb el dron
+    max_height: Altura màxima de vol de 50 m i radi màxim de 150 m
+    no_people: No sobrevolar grups de més de 12 persones
+    
+
+# Explore page
+explore:
+  trails: Rutes
+  no_trails: No hi ha rutes a mostrar
+  go_back: Enrere
+
+  profiles:
+    CASUAL: Casual
+    TREKKER: Excursionista
+    FAMILY: Família
+    IGER: Instagramer
+    RUNNER: Corredor
+    SKIER: Esquiador
+    CLIMBER: Escalador
+    BIKER: Ciclista
+    FISHER: Pescador
+
+  culture:
+    ROMANESQUE: Romànic
+    DRY_STONE: Pedra seca
+    ART: Art
+
+  wildlife:
+    RUPICABRA: Isard
+    MARMOTA: Marmota
+    SALMO_TRUTTA: Truita de riu
+    TRITURUS: Tritó
+    TETRAO: Gall fer
+    LAGOPUS: Perdiu blanca
+
+  clear_filters: Esborrar filtres
+  filters:
+    all: Totes les rutes
+    trending: Destacades
+    featured: Perfils
+    advanced: Avançat
+
+    range:
+      more_than: Més de {min} {unit}
+      from_to: De {min} {unit} a {max} {unit}
+
+    distance: Distància
+    duration: Durada
+    drop: Desnivell
+    drop_positive: Desnivell +
+    origin: Origen
+    culture: Patrimoni cultural
+    wildlife: Fauna
+
+
+# Guides page
+guides:
+  mountain_guides: Guies de muntanya
+  find_guide: Troba un guia
+  loading: Carregant llista de guies...
+  looking_for: Busco un guia de {discipline} que parli {language}
+  association: Tots els guies que col·laboren amb la Casa de la Muntanya són membres de l'Associació de Guies i Acompanyants de Muntanya d'Andorra. Per a més informació visita https://www.agamandorra.org.
+  disciplines:
+    null: qualsevol disciplina
+    CLIMBING: escalada
+    MOUNTAIN_SKI: esquí de muntanya
+    SNOWSHOES: raquetes de neu
+    MOUNTAIN_BIKE: BTT
+    ALPINE_SKI: esquí alpí
+    CULTURAL_HERITAGE: patrimoni cultural
+    VIA_FERRATA: via ferrata
+    CANYONING: barranquisme
+    WINTER_TREKKING: senderisme d'hivern
+    SUMMER_TREKKING: senderisme d'estiu
+  share_knowledge: També tinc coneixements sobre...
+  knowledge:
+    BOTANY: botànica
+    WILDLIFE: fauna
+    BIRDS: ocells
+    GEOLOGY: geologia
+    CULTURAL_HERITAGE: patrimoni cultural
+    SURVIVAL: supervivència
+    ASTRONOMY: astronomia
+    TRAIL_RUNNING: curses de muntanya
+    ENVIRONMENTAL_EDUCATION: tallers d'educació ambiental
+    AVALANCHE_SAFETY: seguretat en neu i allaus
+
+
+# Play page
+play:
+  nav: Menú de jocs
+  start: Jugar!
+  again: Torna a jugar!
+  exit: Surt
+  fingerpaint:
+    name: Ditades
+    description: Coloreja els dibuixos amb els dits
+    drawings: Dibuixos
+    no_drawings: No hi ha dibuixos disponibles
+  memorama:
+    name: Memorama
+    description: Dóna la volta a les cartes i troba totes les parelles
+    loading: Carregant cartes...
+    levels:
+      easy: Aprenent
+      medium: Avançat
+      hard: Expert
+    score: Has completat el joc en {movements} moviments i {time} segons

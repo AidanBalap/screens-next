@@ -2,7 +2,7 @@
   <div class="center">
     <figure v-animate:fade-up class="attribution cover">
       <h1>404</h1>
-      <img src="https://source.unsplash.com/KkCig7EbfoA/1100x800">¡
+      <img src="/images/jpeg/KkCig7EbfoA_1100_800.jpeg">
       <figcaption>© photo by Andrew Neel on Unsplash</figcaption>
     </figure>
     <section v-animate:fade-down>

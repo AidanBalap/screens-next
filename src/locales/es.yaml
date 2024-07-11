@@ -1,0 +1,353 @@
+global:
+  and: y
+  more_info_qr: Para más información escanea el siguiente código QR
+
+months:
+  JAN: ENE
+  FEB: FEB
+  MAR: MAR
+  APR: ABR
+  MAY: MAY
+  JUN: JUN
+  JUL: JUL
+  AUG: AGO
+  SEP: SEP
+  OCT: OCT
+  NOV: NOV
+  DEC: DIC
+
+
+# Not found page
+404:
+  not_found: Página no encontrada
+  got_lost: Te has perdido?
+  not_here: Lo que sea que buscabas no está aquí
+  go_back: Volver atrás
+  go_menu: Ir al menú
+
+
+# Main navigation
+navigation:
+  menu: Menú Principal
+  snow_science: Nivología
+  safety: Seguridad
+  commitment: Compromiso
+  about: Quiénes somos
+  play: Juegos 
+  discover: Descubre
+  explore: Explora
+  guides: Guías
+
+
+# About page
+about:
+  vision: Visión
+  floorplan: Zona expositiva
+  our_vision: Estamos creando un Mountain Living Lab. Un espacio donde experimentar la montaña, pero también donde desarrollar nuevos proyectos y aplicarlos en un entorno real. Nuestro objectivo es involucrar a todo el mundo -desde empresas tecnológicas, guías, centros académicos o artistas- para diseñar, construir y probar ideas extraordinarias.
+  zones:
+    el_cim: Espacio de trabajo El Cim
+    tourism_office: Oficina de turismo
+    videowall: Muro interactivo
+    touchscreens: Pantallas táctiles
+    vr: Realidad virtual
+    media: Documentales
+    model3d: Maqueta 3D
+    conference_room: Sala de conferencias
+    comu_offices: Oficinas del Comú
+
+
+# Safety page
+safety:
+  pages:
+    general: General
+    rescue: Rescate
+    equipment: Equipamiento
+    wildlife: Especies peligrosas
+    hypothermia: Hipotermia
+    thunderstorm: Tormentas
+
+  # Safety: General
+  general:
+    intro: La montaña presenta una serie de riesgos que se tienen que afrontar con prudencia para disfrutar de la experiencia con seguridad y comodidad. Estos riesgos pueden originarse por factores ajenos e imprevistos al excursionista, pero las principales causas de los accidentes en la montaña se deben al factor humano, el desconocimiento del medio natural, la inexperiencia o la sobreestimación de las capacidades propias.
+    guide: La mayoría de accidentes y rescates en montaña se registran durante los meses de verano. En caso de no tener la experiencia adecuada, lo más aconsejable es iniciarse de la mano de un guía profesional.
+    basic_principles: Principios básicos de seguridad en montaña
+    principles:
+      plan: Planifica
+      plan_desc: Consulta información, guías y mapas actualizados. Revisa las condiciones meteorológicas y el estado de la nieve, así como su posible evolución.
+      equip: Equípate
+      equip_desc: Lleva el equipo necesario para la actividad y avituallamiento suficiente para afrontar posibles imprevistos.
+      notify: Notifica
+      notify_desc: Comunica a alguien de confianza los detalles sobre la ruta y las fechas de la actividad prevista.
+      adapt: Adapta
+      adapt_desc: Adapta la actividad a tus límites físicos y técnicos, a las condiciones del terreno y a la previsión meteorológica. Ten siempre un plan B.
+
+  # Safety: Rescue
+  rescue:
+    emergency_phone: Teléfono de emergencia
+    european_phone: Teléfono único europeo de emergencia para todos los países de la Unión Europea y otros como Andorra, Suiza o Noruega.
+    disclaimer: Ante actitudes negligentes el Gobierno puede reclamar al rescatado que asuma el coste del dispositivo del rescate.
+    phone_directives: En caso de accidente o emergencia, llama al teléfono de emergencia y responde brevemente y de forma precisa las siguientes preguntas
+    phone_questions:
+      what: ¿Qué?
+      what_desc: Una descripción detallada de la situación
+      where: ¿Dónde?
+      where_desc: La localización exacta de los hechos
+      when: ¿Cuándo?
+      when_desc: El momento preciso de los hechos
+      who: ¿Quién?
+      who_desc: Las personas involucradas y su estado 
+    distress_signals: Señales de auxilio
+    distress:
+      helicopter_message: Señales para indicar a un piloto de helicóptero si se necesita ayuda o si por lo contrario la situación está controlada.
+      helicopter_yes: Necesito ayuda
+      helicopter_no: No necesito ayuda
+      morse_sos: Señal internacional de petición de auxilio. Se simboliza en código morse como una sucesión de tres pulsaciones cortas, tres pulsaciones largas y tres pulsaciones cortas más.
+
+  # Safety: Equipment
+  equipment:
+    equip_yourself: Equípate adecuadamente
+    proper_equipment: Es imprescindible preparar la mochila con el material adaptado a las condiciones de la actividad y del entorno para disfrutar con comodidad de una excursión en la montaña y poder afrontar cualquier imprevisto de forma segura.
+    essentials: Imprescindible
+    recommended: Recomendado
+    disclaimer: El equipo necesario dependerá siempre de la actividad a realizar. La lista de material básico se tiene que ampliar en función de los requerimientos específicos de la salida (pernoctación en la montaña, salida invernal, realización de una actividad deportiva concreta, etc.).
+    items:
+      clothes: Vestimenta adecuada
+      shoes: Calzado adecuado
+      water: Agua potable
+      food: Alimento energético
+      raincoat: Chubasquero 
+      first_aid_kit: Botiquín
+      mobile_phone: Teléfono móvil y baterías extra
+      map_compass: Mapa y brújula
+      sun_protection: Protección solar
+      thermal_blanket: Manta térmica
+      gps: Dispositivo GPS
+      knife: Navaja multiuso
+      lighter: Mechero
+      flashlight: Linterna o frontal
+      sandals: Sandalias
+
+  # Safety: Dangerous species
+  wildlife:
+    amanita_muscaria:
+      name: Matamoscas
+      description: La Matamoscas es una seta psicoactiva con sombrero rojizo y espora blanca. El pie de color blanco esta rodeado en su base por una volva, tiene un anillo ancho, frágil y blanco.
+      habitat: Nativo de las regiones templadas y boreales del hemisferio norte, crece en bosques de coníferas y de caducifolios a finales de verano o ya entrado el otoño.
+      danger: Es altamente indigesto, vómico y alucinógeno, aunque su ingesta raramente produce intoxicaciones mortales.
+
+    vipera_aspis:
+      name: Víbora áspid
+      description: La Víbora áspid es una serpiente venenosa de unos 60 cm. Tiene la cabeza ancha y triangular, bien diferenciada del cuerpo. Las escamas son grisáceas o doradas, con manchas negras o verdosas apareciendo en zig-zag sobre el lomo.
+      habitat: Vive en zonas cálidas y con buena exposición al sol, con preferencia por entornos rocosos y pastizales.
+      danger: Su mordisco es muy doloroso, pero raramente es letal. La gravedad varía en función de la cantidad de veneno inoculado y el único tratamiento eficaz es la administración de suero anti-viperino.
+
+    ursus_arctos:
+      name: Oso pardo
+      description: El oso pardo puede medir hasta 3m y pesar hasta 700 kg. Tiene el pelo entre marrón oscuro y dorado claro, pasando por diferentes tonos grisáceos. No tiene la visión muy desarrollada, pero sí un oído y un olfato excelentes.
+      habitat: Habita en bosques maduros de Europa, de la Asia cálida y de Norte-américa. En el Pirineo se encuentran algunos individuos gracias a los programas de reintroducción de la especie.
+      danger: Generalmente evita el contacto con humanos. Solo ataca en encuentros repentinos, si se siente acorralado o considera que sus crías están en peligro.
+
+    aconitum:
+      name: Acónito 
+      description: El acónito es una planta alta, con hojas verdes palmadas y coronada por un ramo muy característico de vistosas flores zigomorfas. La floración empieza en julio.
+      habitat: Crece entre los 1000m y 2500m de altitud, cerca de riachuelos y en zonas húmedas y sombrías de bosque. En el Pirineo están presentes tres especies, anapelo azul (Aconitum napellus), acónito de los Alpes (Aconitum anthora) y el matalobos (Aconitum vulparia).
+      danger: Es una planta extremadamente tóxica y puede ser letal incluso en pequeñas cantidades.
+
+  # Safety: Thunderstorms
+  thunderstorm:
+    thunderstorm: Tormenta eléctrica
+    description: Las tormentas eléctricas son el principal peligro de lesiones y muertes relacionadas con fenómenos meteorológicos. Se forman repentinamente en días cálidos, mayoritariamente por la tarde, y a menudo van acompañadas de fuertes vientos, lluvia intensa o granizo.
+    know_distance: Para estimar la distancia aproximada, en kilómetros, a la que se encuentra una tormenta, cuenta los segundos transcurridos entre el rayo y el trueno y divide por tres.
+    avoid_lightning: Evita los rayos
+    in_case_of: En caso de tormenta eléctrica
+    safety_position: Posición de seguridad
+    prevention: Estate preparado, consulta la previsión meteorológica local y aplaza la salida si hay riesgo de tormenta. La prioridad en caso de tormenta es encontrar un refugio seguro. Como última alternativa, adopta la posición de seguridad y espera que ésta se disipe.
+    safety_tips:
+      metal_contact: Evita el contacto con elementos metálicos. Despréndete de mochila, cinturón, llaves, palos, piolets, etc.
+      spread_group: Dispersad el grupo para minimizar el impacto de un rayo.
+      find_shelter: Busca refugio. Edificios o vehículos son seguros, las tiendas de campaña no.
+      no_run: No corras.
+      not_safe_places: Aléjate de picos, crestas y cualquier elemento alto de tu alrededor. No te sitúes debajo de arboles aislados ni dentro de cavidades naturales.
+      protect_ears: Protégete las orejas del estallido de los truenos.
+      crouch_down: Agáchate hasta la posición más baja posible. No te recuestes ni te sientes nunca en el suelo.
+      touch_heels: Contacto entre talones. Augmenta la probabilidad que la electricidad que entra por un pie salga por el otro pie, en vez de fluir hacia el resto del cuerpo.
+      feet_balls: Mantente de cuclillas, apoyado sobre la punta de los pies para minimizar el contacto con el suelo. Augmenta el aislamiento con la mochila o la esterilla.
+
+  # Safety: Hypotermia
+  hypothermia:
+    definition: La hipotermia es la condición en la que la temperatura corporal disminuye por debajo de su valor normal, alrededor de los 37 °C. Su grado de severidad está influenciada por la temperatura ambiente, el contacto con ropa mojada o metales, la presencia de enfermedades cardiovasculares, la ingesta de alcohol y/o el hambre.
+    prevention_tips: Medidas de prevención
+    in_case_of: En caso de hipotermia
+    tips:
+      drink: Comer e hidratarse constantemente. Llevar bebidas calientes en un termo.
+      rest: Parar y descansar para prevenir la fatiga.
+      warm: Proteger manos, pies, cuello y cara con guantes, gorro, pasamontañas y unos buenos calcetines.
+      clothes: Vestirse con ropa adecuada, que mantenga el cuerpo seco y caliente. Utilizar múltiples capas, una de exterior impermeable y varias de interior transpirables.
+      avoid_cotton: Evitar la ropa de algodón, ya que absorbe y mantiene la humedad.
+      call_er: Avisar al servicio de emergencias 112.
+      isolate: Aislar del suelo y del viento.
+      dry: Sustituir la ropa mojada por ropa seca.
+      cover: Cubrir con mantas o ropa cálida. Recuperar la temperatura corporal gradualmente.
+      warm_drink: Dar bebidas dulces y tibias, pero no calientes.
+      no_alcohol: No ofrecer alcohol, cafeína ni tabaco.
+      no_heat: No aplicar calor directamente.
+    symptoms:
+      normal: Habilidades motoras y procesos metabólicos normales
+      chill: Escalofríos
+      sensory_loss: Perdida de sensibilidad
+      speech_impairment: Dificultad del habla
+      memory_loss: Perdida de memoria
+      motor_uncoordination: Descoordinación motora
+      arrhythmia: Arritmia
+      cardiorespiratory_arrest: Parada cardiorrespiratoria
+      death: Muerte
+
+
+# Discover page
+discover:
+  title: Descubre
+  instructions: Navega por los diferentes conceptos y aprende más sobre nuestras montañas.
+
+
+# Commitment page
+commitment:
+  free_camping:
+    title: Acampada libre
+    description: Se permite acampar libremente con una tienda de campaña fuera de los Parques Naturales y propiedades privadas, por un máximo de 2 noches consecutivas y un grupo máximo de 3 tiendas en el mismo lugar.
+    keep_clean: La zona debe dejarse en perfecto estado antes de salir.
+    authorisation: En otros casos, se deberá solicitar autorización expresa al ayuntamiento correspondiente.
+  
+  shelters:
+    title: Refugios
+    description: Los 22 refugios libres de Andorra están abiertos todo el año y no hay un número máximo de pernoctaciones. La mayoría de refugios disponen de una zona para dormir y una sala dedicada a la cocina y al comedor.
+    check_capacity: La capacidad de alojamiento varía en cada refugio; es aconsejable comprobarla previamente.
+  
+  fire:
+    title: Fuego
+    description: Hay una serie de puntos a tener en cuenta a la hora de hacer una hoguera para calentarse o cocinar.
+    no_natural_parks: Está prohibido hacer hogueras en los Parques Naturales.
+    extinguish_fire: No dejar nunca el fuego desatendido y asegurarse de apagarlo antes de salir.
+    surround_rocks: Rodear el fuego con piedras.
+    far_treess: Mantener el fuego alejado de árboles y arbustos.
+  
+  vehicles:
+    title: Vehículos motorizados
+    description: La circulación de vehículos motorizados o con ruedas dentro del espacio natural está regulada por cada ayuntamiento. Se debe consultar la normativa municipal correspondiente antes de emprender la marcha.
+
+  dogs:
+    title: Perros
+    description: Los perros deben ir siempre con correa, incluso en la naturaleza, y con el bozal correctamente colocado si se trata de una especie potencialmente peligrosa.
+    excrements: No permita que los perros entren en los prados y campos agrícolas. Es obligatorio recoger siempre sus excrementos ya que pueden provocar graves enfermedades a los rebaños de vacas que pastan en los prados.
+  
+  drones:
+    title: Drones
+    description: Está permitido volar con drones en un entorno natural con fines recreativos siempre que se cumplan las siguientes condiciones
+    max_weight: Drones de menos de 1 kg.
+    vlos: Mantener un contacto visual permanente con el dron.
+    max_height: Altura máxima de vuelo de 50 m y radio máximo de 150 m.
+    no_people: No volar sobre grupos de más de 12 personas.
+
+
+# Explore page
+explore:
+  trails: Rutas
+  no_trails: Ninguna ruta que mostrar
+  go_back: Atrás
+
+  profiles:
+    CASUAL: Casual
+    TREKKER: Excursionista
+    FAMILY: Familia
+    IGER: Instagramer
+    RUNNER: Corredor
+    SKIER: Esquiador
+    CLIMBER: Escalador
+    BIKER: Ciclista
+    FISHER: Pescador
+
+  culture:
+    ROMANESQUE: Románico
+    DRY_STONE: Piedra seca
+    ART: Arte
+
+  wildlife:
+    RUPICABRA: Rebeco
+    MARMOTA: Marmota
+    SALMO_TRUTTA: Trucha de rio
+    TRITURUS: Tritón
+    TETRAO: Urogallo
+    LAGOPUS: Perdiz nival
+  
+  clear_filters: Borrar filtros
+  filters:
+    all: Todas las rutas
+    trending: Destacadas
+    featured: Perfiles
+    advanced: Avanzado
+
+    range:
+      more_than: Más de {min} {unit}
+      from_to: De {min} {unit} a {max} {unit}
+
+    distance: Distancia
+    duration: Duración
+    drop: Desnivel
+    drop_positive: Desnivel +
+    origin: Origen
+    culture: Patrimonio cultural
+    wildlife: Fauna
+
+
+# Guides page
+guides:
+  mountain_guides: Guías de montaña
+  find_guide: Encuentra un guía
+  loading: Cargando lista de guías...
+  looking_for: Busco un guía de {discipline} que hable {language}
+  association: Todos los guías que colaboran con la Casa de la Montaña son miembros de la Asociación de Guías y Acompañantes de Montaña de Andorra. Para más información visita https://www.agamandorra.org.
+  disciplines:
+    null: cualquier disciplina
+    CLIMBING: escalada
+    MOUNTAIN_SKI: esquí de montaña
+    SNOWSHOES: raquetas de nieve
+    MOUNTAIN_BIKE: BTT
+    ALPINE_SKI: esquí alpino
+    CULTURAL_HERITAGE: patrimonio cultural
+    VIA_FERRATA: vía ferrata
+    CANYONING: barranquismo
+    WINTER_TREKKING: senderismo de invierno
+    SUMMER_TREKKING: senderismo de verano
+  share_knowledge: También tengo conocimientos sobre...
+  knowledge:
+    BOTANY: botánica
+    WILDLIFE: fauna
+    BIRDS: pájaros
+    GEOLOGY: geología
+    CULTURAL_HERITAGE: patrimonio cultural
+    SURVIVAL: supervivencia
+    ASTRONOMY: astronomía
+    TRAIL_RUNNING: carreras de montaña
+    ENVIRONMENTAL_EDUCATION: talleres de educación ambiental
+    AVALANCHE_SAFETY: seguridad en nieve y avalanchas
+
+
+# Play page
+play:
+  nav: Menú de juegos
+  start: ¡Jugar!
+  again: ¡Volver a jugar!
+  exit: Salir
+  fingerpaint:
+    name: Dedadas
+    description: Colorea con los dedos
+    drawings: Dibujos
+    no_drawings: No hay dibujos disponibles
+  memorama:
+    name: Memorama
+    description: Da la vuelta a las cartas y encuentra todas las parejas
+    loading: Cargando cartas...
+    levels:
+      easy: Aprendiz
+      medium: Avanzado
+      hard: Experto
+    score: Has completado el juego en {movements} movimientos y {time} segundos
