@@ -2,7 +2,7 @@ import { createI18n } from 'vue-i18n';
 import yaml from 'js-yaml';
 import { locales } from '/@/config.yaml';
 
-const VITE_LOCALES_URL = '/@/locales';
+const VITE_LOCALES_URL = '/locales';
 
 const LOADED = [];
 
