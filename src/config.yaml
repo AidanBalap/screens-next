@@ -82,8 +82,6 @@ modules:
   #     title: fade-up
   #     image: fade-down
 
-
-  
 video:
   # https://developers.google.com/youtube/player_parameters?hl=es-419
   youtube:
