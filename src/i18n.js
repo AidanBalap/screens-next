@@ -6,7 +6,6 @@ const VITE_LOCALES_URL = '/locales';
 
 const LOADED = [];
 
-
 const i18n = createI18n({
   locale: locales.default,
   fallbackLocale: locales.default,
