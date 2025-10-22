@@ -4,6 +4,7 @@
     "string-quotes": "single",
     "custom-property-pattern": ".+",
     "at-rule-no-unknown": null,
-    "scss/at-rule-no-unknown": true
+    "scss/at-rule-no-unknown": true,
+    "scss/at-extend-no-missing-placeholder": null
   }
 }
