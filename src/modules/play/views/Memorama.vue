@@ -38,7 +38,7 @@
     <p>{{ t('play.memorama.score', gameplay) }}</p>
     <p>
       <button class="btn" @click="reset">{{ t('play.again') }}</button>
-      <router-link to="/play" class="btn btn--plain">{{ t('play.exit') }}</router-link>
+      <router-link to="/play" class="btn btn-plain">{{ t('play.exit') }}</router-link>
     </p>
   </div>
 </template>

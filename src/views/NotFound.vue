@@ -12,7 +12,7 @@
     <section v-entreacte:fade-up>
       <p>
         <button class="btn" @click="back">{{ t('404.go_back') }}</button>
-        <router-link to="/" class="btn btn--plain">{{ t('404.go_menu') }}</router-link>
+        <router-link to="/" class="btn btn-plain">{{ t('404.go_menu') }}</router-link>
       </p>
     </section>
   </div>

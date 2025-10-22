@@ -1,6 +1,6 @@
 .btn,
-input[type=submit],
-input[type=button] {
+input[type='submit'],
+input[type='button'] {
   display: inline-flex;
   align-items: center;
   appearance: none;
@@ -17,14 +17,14 @@ input[type=button] {
   &:active { transform: scale(0.9); }
 
   svg {
-    fill: currentColor;
+    fill: currentcolor;
     margin-right: calc(0.5 * var(--button-padding));
   }
 }
 
-.btn--alert { background: var(--color-alert); }
+.btn-alert { background: var(--color-alert); }
 
-.btn--plain {
+.btn-plain {
   background: transparent;
   color: var(--button-bg-color);
 }

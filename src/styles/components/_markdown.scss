@@ -3,34 +3,36 @@
   em { font-style: italic; }
   del { text-decoration: line-through; }
 
+  ol { list-style-type: decimal !important; }
+
   // Lists
-  ul, ol {
+  ul,
+  ol {
     margin: 1.5rem 2.5rem;
     display: block;
     list-style-type: disc;
 
     li { margin: 0.25rem 0; }
 
-    ul, ol {
+    ul,
+    ol {
       margin: 0.25rem 1.5rem;
       list-style-type: circle;
     }
   }
 
-  ol { list-style-type: decimal !important; }
-
   // Code
+  code {
+    background: #f8f8f8;
+    padding: 0.2em 0.4em;
+    font-family: 'Courier New', monospace;
+  }
+
   pre code {
     display: block;
     margin: 1em 0;
     padding: 1rem;
     border-radius: 3px;
-  }
-
-  code {
-    background: #f8f8f8;
-    padding: 0.2em 0.4em;
-    font-family: 'Courier New', monospace;
   }
 
   // Images
