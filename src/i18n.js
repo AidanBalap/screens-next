@@ -1,33 +1,39 @@
 import { createI18n } from 'vue-i18n';
-import yaml from 'js-yaml';
 import { locales } from '/@/config.yaml';
 
-const VITE_LOCALES_URL = '/locales';
+// Import all locale files directly
+import ca from './locales/ca.yaml';
+import en from './locales/en.yaml';
+import es from './locales/es.yaml';
+import fr from './locales/fr.yaml';
 
-const LOADED = [];
+const messages = {
+  ca,
+  en,
+  es,
+  fr,
+};
 
 const i18n = createI18n({
   legacy: false,
   locale: locales.default,
-  fallbackLocale: locales.default,
+  fallbackLocale: locales.fallback,
+  messages,
 });
 
-export const setLocale = async locale => {
+export const setLocale = locale => {
   try {
-    if (!locales.supported.includes(locale)) throw new Error(`${locale} is not supported`);
-    if (!LOADED.includes(locale)) {
-      const url = `${VITE_LOCALES_URL}/${locale}.yaml`;
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`Error loading ${locale} from ${VITE_LOCALES_URL}`);
-      const dictionary = yaml.load(await response.text());
-      i18n.global.setLocaleMessage(locale, dictionary);
-      LOADED.push(locale);
+    if (!locales.supported.includes(locale)) {
+      throw new Error(`${locale} is not supported`);
     }
     i18n.global.locale.value = locale;
     document.querySelector('html').setAttribute('lang', locale);
-  } catch (error) { /* Send to Sentry? */ }
+  } catch (error) {
+    // Send to Sentry?
+  }
 };
 
+// Initialize with default locale
 setLocale(locales.default);
 
 export default i18n;
