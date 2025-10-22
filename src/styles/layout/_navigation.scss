@@ -31,7 +31,7 @@
       &.left { left: -0.5em; }
       &.bottom { bottom: -0.5em; }
       &.vertical { writing-mode: vertical-lr; }
-      &.left.vertical { transform: rotate(180deg); }
+      &.left.vertical { writing-mode: sideways-lr; }
 
       // Fix overlying figcaption position
       &.right + figure figcaption {
