@@ -1,15 +1,14 @@
-@import
-  'nav-bar',
-  'section',
-  'box',
-  'columns',
-  'blocks',
-  'list',
-  'scroller',
-  'tooltip',
-  'shadow',
-  'navigation',
-  'stats';
+@use 'nav-bar';
+@use 'section';
+@use 'box';
+@use 'columns';
+@use 'blocks';
+@use 'list';
+@use 'scroller';
+@use 'tooltip';
+@use 'shadow';
+@use 'navigation';
+@use 'stats';
 
 .stack {
   display: flex;

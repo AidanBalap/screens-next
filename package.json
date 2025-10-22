@@ -1,42 +1,43 @@
 {
   "name": "screens",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint . --ext .js,.vue && stylelint '**/*.{css,scss,sass}'",
+    "lint:fix": "eslint . --ext .js,.vue --fix && stylelint '**/*.{css,scss,sass}' --fix"
   },
   "dependencies": {
-    "@vueform/slider": "^2.1.2",
-    "d3": "^7.6.1",
+    "@vueform/slider": "^2.1.10",
+    "d3": "^7.9.0",
+    "entreacte": "^1.0.1",
     "js-yaml": "^4.1.0",
-    "leaflet": "^1.8.0",
-    "painless-airtable": "^0.2.4",
-    "qrcode.vue": "^3.3.3",
+    "leaflet": "^1.9.4",
+    "painless-airtable": "^0.3.0",
+    "qrcode.vue": "^3.6.0",
     "remarkable": "^2.0.1",
     "remixicon": "^2.5.0",
-    "reset-css": "^5.0.1",
+    "reset-css": "^5.0.2",
     "units-converter": "^1.0.3",
-    "vue": "^3.2.37",
-    "vue-i18n": "^9.2.2",
-    "vue-inline-svg": "^3.0.0-beta.3",
-    "vue-router": "^4.1.3",
-    "vue-router-animations": "gist:bd502b019ba91f8f70b3a8f5cbb6f4d8"
+    "vue": "^3.5.22",
+    "vue-i18n": "^9.14.5",
+    "vue-inline-svg": "^3.1.4",
+    "vue-router": "^4.6.3"
   },
   "devDependencies": {
-    "@intlify/vite-plugin-vue-i18n": "^6.0.1",
     "@rollup/plugin-yaml": "^3.1.0",
-    "@vitejs/plugin-vue": "^2.1.0",
-    "@vue/compiler-sfc": "^3.2.37",
+    "@vitejs/plugin-vue": "^6.0.1",
     "autoprefixer": "^10.4.8",
-    "eslint": "^8.21.0",
+    "eslint": "^8.57.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-vue": "^9.3.0",
-    "sass": "^1.54.4",
-    "stylelint": "^14.10.0",
-    "stylelint-config-standard": "^27.0.0",
-    "stylelint-scss": "^4.3.0",
-    "vite": "^2.9.12"
+    "eslint-plugin-vue": "^9.33.0",
+    "sass": "^1.93.2",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^28.0.0",
+    "stylelint-scss": "^4.7.0",
+    "vite": "^7.1.11"
   }
 }

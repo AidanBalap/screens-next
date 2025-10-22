@@ -1,12 +1,10 @@
-@import
-  'reset',
-  'variables',
-  'layout',
-  'typography',
-  'forms',
-  'media';
-@import
-  'components/buttons',
-  'components/card',
-  'components/map',
-  'components/markdown';
+@use 'reset';
+@use 'variables';
+@use 'layout';
+@use 'typography';
+@use 'forms';
+@use 'media';
+@use 'components/buttons';
+@use 'components/card';
+@use 'components/map';
+@use 'components/markdown';
