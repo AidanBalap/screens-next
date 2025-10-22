@@ -1,5 +1,5 @@
 <template>
-  <section v-if="!isMenu" v-animate:fade-down>
+  <section v-if="!isMenu" v-entreacte:fade-down>
     <router-link to="/play" class="btn">{{ t('play.nav') }}</router-link>
   </section>
   <router-view />

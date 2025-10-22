@@ -1,5 +1,5 @@
 <template>
-  <section v-animate:fade-down class="guides-filters">
+  <section v-entreacte:fade-down class="guides-filters">
     <i18n-t tag="p" keypath="guides.looking_for" class="natural-language-form">
       <template #language>
         <selector v-model="filters.language" :options="filters.languages" />
@@ -12,7 +12,7 @@
       </template>
     </i18n-t>
   </section>
-  <section v-animate:fade class="stack" :data-tag="t('guides.mountain_guides')">
+  <section v-entreacte:fade class="stack" :data-tag="t('guides.mountain_guides')">
     <transition-group
       v-if="guides.length"
       tag="ul"
@@ -60,7 +60,7 @@
     <p v-else class="loading">
       {{ t('guides.loading') }}
     </p>
-    <p v-animate:fade class="note">{{ t('guides.association') }}</p>
+    <p v-entreacte:fade class="note">{{ t('guides.association') }}</p>
   </section>
 </template>
 

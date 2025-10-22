@@ -1,19 +1,19 @@
 <template>
   <section class="hypothermia-animation">
     <inline-svg
-      v-animate:fade-left
+      v-entreacte:fade-left
       :src="silhouette"
       :style="gradient" />
     <section class="stack">
-      <h1 v-animate:fade-right class="temperature">
+      <h1 v-entreacte:fade-right class="temperature">
         {{ temperature.toFixed(1) }} <small>&deg;C</small>
       </h1>
-      <ul v-animate:fade-right class="symptoms">
+      <ul v-entreacte:fade-right class="symptoms">
         <li v-for="symptom in symptoms" :key="symptom" :class="symptom">
           {{ t(`safety.hypothermia.symptoms.${symptom}`) }}
         </li>
       </ul>
-      <p v-animate:fade-up>{{ t('safety.hypothermia.definition') }}</p>
+      <p v-entreacte:fade-up>{{ t('safety.hypothermia.definition') }}</p>
     </section>
   </section>
 </template>

@@ -1,9 +1,9 @@
 <template>
-  <trail-filters v-model="filter" v-animate:fade />
-  <section v-animate:fade :data-tag-pre="t('explore.trails')">
+  <trail-filters v-model="filter" v-entreacte:fade />
+  <section v-entreacte:fade :data-tag-pre="t('explore.trails')">
     <div
       v-dragscroll
-      v-animate:fade-up
+      v-entreacte:fade-up
       class="trails scroller"
       :data-empty="t('explore.no_trails')">
       <trail-card
@@ -16,7 +16,7 @@
     </div>
   </section>
   <section class="stack">
-    <div id="explore" v-animate:fade class="map">
+    <div id="explore" v-entreacte:fade class="map">
       <trail-sheet v-if="activeTrail" :trail="activeTrail" />
     </div>
   </section>

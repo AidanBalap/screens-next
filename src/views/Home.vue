@@ -1,5 +1,5 @@
 <template>
-  <section v-animate:fade class="stack" :data-tag="t('navigation.menu')">
+  <section v-entreacte:fade class="stack" :data-tag="t('navigation.menu')">
     <div class="nav-grid">
       <router-link
         v-for="module in modules"
@@ -7,12 +7,12 @@
         :class="`nav-${module.name}`"
         :to="module.path">
         <h1
-          v-animate:[module.transitions.title]
+          v-entreacte:[module.transitions.title]
           :class="module.title">
           {{ t(`navigation.${module.name}`) }}
         </h1>
         <figure
-          v-animate:[module.transitions.image]
+          v-entreacte:[module.transitions.image]
           class="attribution cover">
           <img :src="module.image.url">
           <figcaption v-if="module.image.attribution">

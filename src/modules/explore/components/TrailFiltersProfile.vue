@@ -18,7 +18,7 @@ import config from '../config.yaml';
 
 const { profiles } = config.filters;
 
-const icons = import.meta.globEager('../assets/profiles/*.svg');
+const icons = import.meta.glob('../assets/profiles/*.svg', { eager: true });
 
 export default {
   name: 'TrailFiltersProfile',

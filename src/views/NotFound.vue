@@ -1,15 +1,15 @@
 <template>
   <div class="center">
-    <figure v-animate:fade-up class="attribution cover">
+    <figure v-entreacte:fade-up class="attribution cover">
       <h1>404</h1>
       <img src="/images/jpeg/KkCig7EbfoA_1100_800.jpeg">
       <figcaption>© photo by Andrew Neel on Unsplash</figcaption>
     </figure>
-    <section v-animate:fade-down>
+    <section v-entreacte:fade-down>
       <h1>{{ t('404.got_lost') }}</h1>
       <p>{{ t('404.not_here') }}</p>
     </section>
-    <section v-animate:fade-up>
+    <section v-entreacte:fade-up>
       <p>
         <button class="btn" @click="back">{{ t('404.go_back') }}</button>
         <router-link to="/" class="btn btn--plain">{{ t('404.go_menu') }}</router-link>

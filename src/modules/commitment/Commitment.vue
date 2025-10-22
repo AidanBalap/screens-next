@@ -14,13 +14,13 @@
       v-for="(tip, name, i) in pageTips"
       :key="name"
       :class="['stack', 'block-image', { reverse: i % 2 }]">
-      <figure v-animate:fade-up class="attribution cover faded">
+      <figure v-entreacte:fade-up class="attribution cover faded">
         <img :src="tip.image.url">
         <figcaption>{{ tip.image.attribution }}</figcaption>
       </figure>
       <section>
-        <h2 v-animate:fade>{{ t(`commitment.${name}.title`) }}</h2>
-        <div v-animate:fade-down>
+        <h2 v-entreacte:fade>{{ t(`commitment.${name}.title`) }}</h2>
+        <div v-entreacte:fade-down>
           <p v-for="text in tip.text" :key="text.text || text" :class="text.type">
             {{ t(`commitment.${name}.${text.text || text}`) }}
           </p>

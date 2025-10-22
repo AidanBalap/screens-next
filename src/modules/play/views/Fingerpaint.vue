@@ -1,8 +1,8 @@
 <template>
-  <section v-animate:fade :data-tag="t('play.fingerpaint.drawings')">
+  <section v-entreacte:fade :data-tag="t('play.fingerpaint.drawings')">
     <div
       v-dragscroll
-      v-animate:fade-down
+      v-entreacte:fade-down
       class="drawing-picker scroller"
       :data-empty="t('play.fingerpaint.no_drawings')">
       <label v-for="drawing in drawings" :key="drawing.name">
@@ -12,7 +12,7 @@
     </div>
   </section>
   <section class="stack">
-    <div v-animate:fade class="drawer stack">
+    <div v-entreacte:fade class="drawer stack">
       <canvas ref="canvas" v-on="drawer.handlers" />
       <template v-if="selectedDrawing">
         <img :src="selectedDrawing.image[0].url">
@@ -20,7 +20,7 @@
       </template>
     </div>
   </section>
-  <section v-animate:fade-up class="toolbox">
+  <section v-entreacte:fade-up class="toolbox">
     <color-picker v-model="brush.color">
       <img src="../assets/paint-brush.svg">
     </color-picker>

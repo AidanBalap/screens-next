@@ -1,7 +1,10 @@
 <template>
   <section v-if="true" class="stack">
     <ul class="games">
-      <li v-for="(game, i) in games" :key="game" v-animate="`${i * 0.15}s`">
+      <li
+        v-for="(game, i) in games"
+        :key="game"
+        v-entreacte="`{ animation: 'fade' , delay: '${i * 0.15}s'}`">
         <figure class="cover">
           <img :src="covers[`../assets/cover.${game}.jpg`].default">
         </figure>
@@ -21,7 +24,7 @@
 import { useI18n } from 'vue-i18n';
 import { games } from '../config.yaml';
 
-const covers = import.meta.globEager('../assets/cover.*.jpg');
+const covers = import.meta.glob('../assets/cover.*.jpg', { eager: true });
 
 export default {
   name: 'GamesMenu',
